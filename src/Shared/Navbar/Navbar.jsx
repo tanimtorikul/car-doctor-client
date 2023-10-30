@@ -1,24 +1,49 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
-
-const navLinks = (
-  <>
-    <li>
-      {" "}
-      <Link to="/">Home</Link>
-    </li>
-    <li>
-      {" "}
-      <Link to="/about">About</Link>
-    </li>
-    <li>
-      {" "}
-      <Link to="/services">Services</Link>
-    </li>
-  </>
-);
+import { useContext } from "react";
+import { AuthContext } from "../../Providers/AuthProvider";
+import toast from "react-hot-toast";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+  // console.log('User', user?.email);
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+        toast.success('Logged out successfully')
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const navLinks = (
+    <>
+      <li>
+        {" "}
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        {" "}
+        <Link to="/about">About</Link>
+      </li>
+      {user?.email ? (
+       <>
+        <li>
+          <Link to='/bookings'>My Bookings</Link>
+        </li>
+        <li>
+          <button onClick={handleLogOut}>Logout</button>
+        </li>
+       </>
+      ) : (
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+      )}
+    </>
+  );
+
   return (
     <div className="navbar bg-base-100 py-7 mb-[50px]">
       <div className="navbar-start">
@@ -51,10 +76,14 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal text-lg font-semibold px-1">{navLinks}</ul>
+        <ul className="menu menu-horizontal text-lg font-semibold px-1">
+          {navLinks}
+        </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn text-[#FF3811] rounded btn-outline">Appointment</button>
+        <button className="btn text-[#FF3811] rounded btn-outline">
+          Appointment
+        </button>
       </div>
     </div>
   );

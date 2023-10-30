@@ -1,158 +1,152 @@
 [
-    {
-        "_id": "635a0c0b64a6d231228942ae",
-        "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-        "price": "20.00",
-        "description": "Keep your engine in peak condition with our Engine Oil Change service. Our meticulous process ensures that old oil is completely drained, the oil filter is replaced with a premium one, and your engine is replenished with high-quality synthetic oil. This not only enhances engine performance but also extends its lifespan. Say goodbye to sludge and contaminants, and say hello to smoother, more efficient running.",
-        "facility": [
-            {
-                "name": "Quick Service",
-                "details": "We understand your time is valuable, and we strive for quick and efficient oil change services."
-            },
-            {
-                "name": "Skilled Technicians",
-                "details": "Our certified technicians are well-versed in handling various vehicle makes and models, ensuring a professional and reliable service."
-            },
-            {
-                "name": "Customer Satisfaction",
-                "details": "Your satisfaction is our top priority. We are committed to delivering the best service to keep your engine in prime condition."
-            },
-            {
-                "name": "Quality Products",
-                "details": "We use only the finest synthetic oils and genuine filters to ensure optimal engine protection and performance."
-            }
-        ]
-    },
-    {
-        "_id": "635a0c0b64a6d231228942af",
-        "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-        "price": "20.00",
-        "description": "Is your car battery running low, leaving you in the lurch? Our Battery Charge service is the lifeline you need. Our expert technicians will diagnose the issue, utilize advanced charging equipment to rejuvenate your battery, and ensure it's charged to its full capacity. Don't let a dead battery put a damper on your day; choose our Battery Charge service and stay on the road with confidence.",
-        "facility": [
-            {
-                "name": "Quick Service",
-                "details": "We understand the importance of your time and provide prompt and efficient battery charging services."
-            },
-            {
-                "name": "Skilled Technicians",
-                "details": "Our certified technicians are well-trained in battery diagnostics and charging, ensuring your vehicle is in capable hands."
-            },
-            {
-                "name": "Customer Satisfaction",
-                "details": "We prioritize your satisfaction and guarantee reliable battery charging to get you back on the road swiftly."
-            },
-            {
-                "name": "Quality Products",
-                "details": "We use advanced charging equipment to ensure your battery is charged effectively, extending its lifespan."
-            }
-        ]
-    },
-    {
-        "_id": "635b591a1dafe382a9da8c96",
-        "service_id": "01",
-        "title": "Full Car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-        "price": "200.00",
-        "description": "When your vehicle requires extensive repair, entrust it to our Full Car Repair service. Our highly skilled mechanics will conduct a thorough examination, identify the issues, and provide a comprehensive repair plan. We use premium replacement parts to ensure your vehicle's longevity. Whether it's engine, transmission, or any other problem, our Full Car Repair service has you covered.",
-        "facility": [
-            {
-                "name": "Comprehensive Service",
-                "details": "We offer a comprehensive solution for all your car repair needs, addressing a wide range of mechanical issues."
-            },
-            {
-                "name": "Skilled Mechanics",
-                "details": "Our skilled mechanics have years of experience, providing you with top-tier repair services you can trust."
-            },
-            {
-                "name": "Customer Satisfaction",
-                "details": "Your satisfaction is our priority, and we are committed to delivering the best repair services to get your car back in prime condition."
-            },
-            {
-                "name": "Quality Parts",
-                "details": "We use high-quality replacement parts to ensure your vehicle's reliability and performance."
-            }
-        ]
-    },
-    {
-        "_id": "635b5afc1dafe382a9da8c98",
-        "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
-        "price": "150.00",
-        "description": "If your engine is making strange noises or experiencing performance issues, our Engine Repair service is the solution you need. Our expert mechanics will diagnose the problem, provide a detailed repair plan, and restore your engine's optimal performance. We utilize cutting-edge tools and quality replacement parts to ensure your engine runs smoothly and efficiently.",
-        "facility": [
-            {
-                "name": "Expert Mechanics",
-                "details": "Our certified mechanics are well-versed in engine diagnostics and repairs, ensuring your vehicle's engine is in the best hands."
-            },
-            {
-                "name": "Customized Solutions",
-                "details": "We tailor our repair solutions to your engine's specific needs, delivering a personalized and effective service."
-            },
-            {
-                "name": "Customer Satisfaction",
-                "details": "Your satisfaction is our priority, and we guarantee top-notch engine repair to keep you on the road with confidence."
-            },
-            {
-                "name": "Quality Parts",
-                "details": "We use high-quality replacement parts to ensure your engine's longevity and performance."
-            }
-        ]
-    },
-    {
-        "_id": "635b5b691dafe382a9da8c99",
-        "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
-        "price": "30.00",
-        "description": "Enjoy smooth and trouble-free driving with our Automatic Services. Our experts will inspect and service your vehicle's automatic transmission, ensuring it operates seamlessly. We use state-of-the-art diagnostic tools and high-quality fluids to optimize your transmission's performance. Don't let transmission issues disrupt your ride; choose our Automatic Services for a stress-free driving experience.",
-        "facility": [
-            {
-                "name": "Transmission Experts",
-                "details": "Our skilled technicians specialize in automatic transmission services, providing top-tier solutions for your vehicle."
-            },
-            {
-                "name": "Advanced Equipment",
-                "details": "We employ the latest diagnostic tools and high-quality fluids to ensure your automatic transmission operates at its best."
-            },
-            {
-                "name": "Customer Satisfaction",
-                "details": "Your satisfaction is our priority, and we're committed to delivering the best automatic transmission services to keep your vehicle in prime condition."
-            },
-            {
-                "name": "Quality Maintenance",
-                "details": "We use high-quality fluids and meticulous maintenance procedures to enhance your automatic transmission's longevity."
-            }
-        ]
-    },
-    {
-        "_id": "635b5ba51dafe382a9da8c9a",
-        "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-        "price": "20.00",
-        "description": "Ensure your vehicle's electrical system is in top-notch condition with our Electrical System service. From wiring issues to malfunctioning components, we diagnose and repair electrical problems efficiently. Our experienced electricians use advanced diagnostic equipment and quality electrical parts to guarantee your vehicle's electrical reliability and safety.",
-        "facility": [
-            {
-                "name": "Electrical Experts",
-                "details": "Our certified electricians specialize in diagnosing and repairing various electrical issues in your vehicle, ensuring safe and efficient operation."
-            },
-            {
-                "name": "State-of-the-Art Diagnostics",
-                "details": "We use advanced diagnostic equipment to identify electrical problems accurately, providing effective solutions for your vehicle."
-            },
-            {
-                "name": "Customer Satisfaction",
-                "details": "Your satisfaction is our priority, and we're dedicated to delivering top-notch electrical system services to keep your vehicle operating flawlessly."
-            },
-            {
-                "name": "Quality Electrical Components",
-                "details": "We use high-quality electrical components to ensure the safety and reliability of your vehicle's electrical system."
-            }
-        ]
-    }
+  {
+    "service_id": "04",
+    "title": "Engine Oil Change",
+    "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+    "price": "20.00",
+    "description": "Keep your engine in peak condition with our Engine Oil Change service. Our meticulous process ensures that old oil is completely drained, the oil filter is replaced with a premium one, and your engine is replenished with high-quality synthetic oil. This not only enhances engine performance but also extends its lifespan. Say goodbye to sludge and contaminants, and say hello to smoother, more efficient running.",
+    "facility": [
+      {
+        "name": "Quick Service",
+        "details": "We understand your time is valuable, and we strive for quick and efficient oil change services."
+      },
+      {
+        "name": "Skilled Technicians",
+        "details": "Our certified technicians are well-versed in handling various vehicle makes and models, ensuring a professional and reliable service."
+      },
+      {
+        "name": "Customer Satisfaction",
+        "details": "Your satisfaction is our top priority. We are committed to delivering the best service to keep your engine in prime condition."
+      },
+      {
+        "name": "Quality Products",
+        "details": "We use only the finest synthetic oils and genuine filters to ensure optimal engine protection and performance."
+      }
+    ]
+  },
+  {
+    "service_id": "05",
+    "title": "Battery Charge",
+    "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
+    "price": "20.00",
+    "description": "Is your car battery running low, leaving you in the lurch? Our Battery Charge service is the lifeline you need. Our expert technicians will diagnose the issue, utilize advanced charging equipment to rejuvenate your battery, and ensure it's charged to its full capacity. Don't let a dead battery put a damper on your day; choose our Battery Charge service and stay on the road with confidence.",
+    "facility": [
+      {
+        "name": "Quick Service",
+        "details": "We understand the importance of your time and provide prompt and efficient battery charging services."
+      },
+      {
+        "name": "Skilled Technicians",
+        "details": "Our certified technicians are well-trained in battery diagnostics and charging, ensuring your vehicle is in capable hands."
+      },
+      {
+        "name": "Customer Satisfaction",
+        "details": "We prioritize your satisfaction and guarantee reliable battery charging to get you back on the road swiftly."
+      },
+      {
+        "name": "Quality Products",
+        "details": "We use advanced charging equipment to ensure your battery is charged effectively, extending its lifespan."
+      }
+    ]
+  },
+  {
+    "service_id": "01",
+    "title": "Full Car Repair",
+    "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
+    "price": "200.00",
+    "description": "When your vehicle requires extensive repair, entrust it to our Full Car Repair service. Our highly skilled mechanics will conduct a thorough examination, identify the issues, and provide a comprehensive repair plan. We use premium replacement parts to ensure your vehicle's longevity. Whether it's engine, transmission, or any other problem, our Full Car Repair service has you covered.",
+    "facility": [
+      {
+        "name": "Comprehensive Service",
+        "details": "We offer a comprehensive solution for all your car repair needs, addressing a wide range of mechanical issues."
+      },
+      {
+        "name": "Skilled Mechanics",
+        "details": "Our skilled mechanics have years of experience, providing you with top-tier repair services you can trust."
+      },
+      {
+        "name": "Customer Satisfaction",
+        "details": "Your satisfaction is our priority, and we are committed to delivering the best repair services to get your car back in prime condition."
+      },
+      {
+        "name": "Quality Parts",
+        "details": "We use high-quality replacement parts to ensure your vehicle's reliability and performance."
+      }
+    ]
+  },
+  {
+    "service_id": "02",
+    "title": "Engine Repair",
+    "img": "https://i.ibb.co/5MvmD2g/88.jpg",
+    "price": "150.00",
+    "description": "If your engine is making strange noises or experiencing performance issues, our Engine Repair service is the solution you need. Our expert mechanics will diagnose the problem, provide a detailed repair plan, and restore your engine's optimal performance. We utilize cutting-edge tools and quality replacement parts to ensure your engine runs smoothly and efficiently.",
+    "facility": [
+      {
+        "name": "Expert Mechanics",
+        "details": "Our certified mechanics are well-versed in engine diagnostics and repairs, ensuring your vehicle's engine is in the best hands."
+      },
+      {
+        "name": "Customized Solutions",
+        "details": "We tailor our repair solutions to your engine's specific needs, delivering a personalized and effective service."
+      },
+      {
+        "name": "Customer Satisfaction",
+        "details": "Your satisfaction is our priority, and we guarantee top-notch engine repair to keep you on the road with confidence."
+      },
+      {
+        "name": "Quality Parts",
+        "details": "We use high-quality replacement parts to ensure your engine's longevity and performance."
+      }
+    ]
+  },
+  {
+    "service_id": "03",
+    "title": "Automatic Services",
+    "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+    "price": "30.00",
+    "description": "Enjoy smooth and trouble-free driving with our Automatic Services. Our experts will inspect and service your vehicle's automatic transmission, ensuring it operates seamlessly. We use state-of-the-art diagnostic tools and high-quality fluids to optimize your transmission's performance. Don't let transmission issues disrupt your ride; choose our Automatic Services for a stress-free driving experience.",
+    "facility": [
+      {
+        "name": "Transmission Experts",
+        "details": "Our skilled technicians specialize in automatic transmission services, providing top-tier solutions for your vehicle."
+      },
+      {
+        "name": "Advanced Equipment",
+        "details": "We employ the latest diagnostic tools and high-quality fluids to ensure your automatic transmission operates at its best."
+      },
+      {
+        "name": "Customer Satisfaction",
+        "details": "Your satisfaction is our priority, and we're committed to delivering the best automatic transmission services to keep your vehicle in prime condition."
+      },
+      {
+        "name": "Quality Maintenance",
+        "details": "We use high-quality fluids and meticulous maintenance procedures to enhance your automatic transmission's longevity."
+      }
+    ]
+  },
+  {
+    "service_id": "06",
+    "title": "Electrical System",
+    "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
+    "price": "20.00",
+    "description": "Ensure your vehicle's electrical system is in top-notch condition with our Electrical System service. From wiring issues to malfunctioning components, we diagnose and repair electrical problems efficiently. Our experienced electricians use advanced diagnostic equipment and quality electrical parts to guarantee your vehicle's electrical reliability and safety.",
+    "facility": [
+      {
+        "name": "Electrical Experts",
+        "details": "Our certified electricians specialize in diagnosing and repairing various electrical issues in your vehicle, ensuring safe and efficient operation."
+      },
+      {
+        "name": "State-of-the-Art Diagnostics",
+        "details": "We use advanced diagnostic equipment to identify electrical problems accurately, providing effective solutions for your vehicle."
+      },
+      {
+        "name": "Customer Satisfaction",
+        "details": "Your satisfaction is our priority, and we're dedicated to delivering top-notch electrical system services to keep your vehicle operating flawlessly."
+      },
+      {
+        "name": "Quality Electrical Components",
+        "details": "We use high-quality electrical components to ensure the safety and reliability of your vehicle's electrical system."
+      }
+    ]
+  }
 ]

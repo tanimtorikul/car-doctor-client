@@ -5,7 +5,7 @@ const Services = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("services.json")
+    fetch("http://localhost:5000/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -17,7 +17,7 @@ const Services = () => {
         <p className="text-[#737373]">
           The majority have suffered alteration in some form, by injected
           humour, or randomised <br />
-          words which don't look even slightly believable.{" "}
+          words which dont look even slightly believable.{" "}
         </p>
       </div>
       <div className="grid md:grid-cols-3 justify-center gap-6">
