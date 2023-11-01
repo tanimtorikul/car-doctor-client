@@ -39,9 +39,8 @@ const BookService = () => {
       .then((data) => {
         console.log(data);
         if (data.insertedId) {
-          toast.success('Successfully added!');
-          form.reset()
-
+          toast.success("Successfully added!");
+          form.reset();
         }
       });
   };
